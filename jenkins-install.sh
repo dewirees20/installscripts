@@ -6,7 +6,7 @@ if type apt > /dev/null; then
     else
       java="openjdk-11-jre"
     fi
-elif type yum /dev/null; then
+elif type yum > /dev/null; then
     pkg_mgr=yum
     java="java"
 fi
